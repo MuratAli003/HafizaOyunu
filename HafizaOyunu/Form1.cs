@@ -121,6 +121,7 @@ namespace HafizaOyunu
                 first = button;
                 first.ForeColor = Color.Black;
                 first.BackColor = Color.White;
+                button.Enabled = false;
                 return;
 
             }
@@ -128,6 +129,7 @@ namespace HafizaOyunu
             second = button;
             second.ForeColor = Color.Black;
             second.BackColor = Color.White;
+            button.Enabled = false;
 
             //Kartlarin esitligi sorgulanir
             if(first.Text == second.Text)
@@ -148,6 +150,10 @@ namespace HafizaOyunu
             }
             else
             {
+                button = first;
+                button.Enabled = true;
+                button = second;
+                button.Enabled = true;
                 //Yanlis tahmin durumunda kartlari kapatmak icin kullanilir.
                 timer2.Start();
                 timer2.Interval = 400;
