@@ -4,5 +4,6 @@
     </h4>
 <h2>Uygulama Önizleme</h2>
 
-![hafiza](https://github.com/MuratAli003/HafizaOyunu/assets/120710970/2e9c2e73-ee59-4f79-a78f-85637998fd0c)
 
+
+![İsimsiz video ‐ Clipchamp ile yapıldı](https://github.com/MuratAli003/HafizaOyunu/assets/120710970/28c8b76e-458c-4805-9b90-c6ea3baee6e7)
